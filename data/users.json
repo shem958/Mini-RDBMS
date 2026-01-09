@@ -1,0 +1,26 @@
+{
+  "name": "users",
+  "columns": [
+    {
+      "name": "id",
+      "type": "INT",
+      "primary": true
+    },
+    {
+      "name": "email",
+      "type": "STRING",
+      "unique": true
+    },
+    {
+      "name": "name",
+      "type": "STRING"
+    }
+  ],
+  "rows": [
+    {
+      "id": 2,
+      "email": "b@test.com",
+      "name": "Bob"
+    }
+  ]
+}
